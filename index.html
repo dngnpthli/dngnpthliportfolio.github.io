@@ -175,14 +175,15 @@
 
           </div>
         </div>
-        <form class="footer__form">
-          <input type="text" placeholder="Your Name" />
-          <input type="text" placeholder="Your Email Address" />
-          <input type="text" placeholder="Your Phone Number" />
-          <textarea cols="30" rows="10" placeholder="Your Idea"></textarea>
-          <button type="submit" class="btn">Send Message</button>
+        <form class="footer__form" id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" />
+            <input type="text" id="email" placeholder="Your Email Address" />
+            <input type="text" id="phone" placeholder="Your Phone Number" />
+            <textarea id="idea" cols="30" rows="10" placeholder="Your Idea"></textarea>
+            <button type="button" class="btn" onclick="submitForm()">Send Message</button>
         </form>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

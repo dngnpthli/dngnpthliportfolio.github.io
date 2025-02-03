@@ -267,7 +267,7 @@ footer {
   outline: none;
   border: none;
   border-radius: 5px;
-  color: var(--text-color);
+  color: var(--black);
 }
 
 .footer__form textarea {
